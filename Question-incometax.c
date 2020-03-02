@@ -40,7 +40,7 @@ switch (gender)
         printf("\n\n\nYour tax is:\t %.2f Rupess\n\n\n", tax);
 break;
 case 2:
-	printf ("\n\n\nYour tax is:\t %.2f Rupess with 10 percentage rebate\n" ,tax + tax*0.1);
+	printf ("\n\n\nYour tax is:\t %.2f Rupess with 10 percentage rebate\n" ,tax - tax*0.1);
      break;
      default:
      	printf ("wrong input ");
